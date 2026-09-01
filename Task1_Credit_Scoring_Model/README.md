@@ -159,7 +159,7 @@ Feature Importance Analysis
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 The model was evaluated using:
 
@@ -196,7 +196,7 @@ These factors contributed most to credit risk prediction.
 
 ---
 
-## 📸 Project Visualizations
+## Project Visualizations
 
 ### Age Distribution
 
