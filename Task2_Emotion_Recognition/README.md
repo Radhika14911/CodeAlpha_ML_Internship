@@ -2,25 +2,30 @@
 
 ## Project Overview
 
-This project focuses on recognizing human emotions from speech audio using Deep Learning techniques. The model analyzes speech signals and classifies them into different emotional categories such as Happy, Sad, Angry, Fearful, Neutral, Disgust, and Surprised.
+This project focuses on recognizing human emotions from speech audio using Deep Learning and Speech Signal Processing techniques. The model analyzes speech recordings and classifies them into different emotional categories such as Happy, Sad, Angry, Fearful, Neutral, and Calm.
 
-Emotion recognition from speech has applications in human-computer interaction, virtual assistants, customer service analysis, mental health monitoring, and intelligent communication systems.
+Emotion recognition from speech has applications in Human-Computer Interaction, Virtual Assistants, Call Center Analytics, Mental Health Monitoring, and Smart Communication Systems.
 
 ---
 
 ## Objective
 
-To develop a speech emotion recognition system capable of identifying human emotions from audio recordings using extracted acoustic features and Deep Learning models.
+The objective of this project is to develop a Speech Emotion Recognition (SER) system capable of identifying emotions from audio recordings using extracted acoustic features and deep learning models.
 
 ---
 
 ## Dataset
 
-Dataset Used: RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)
+The project uses the RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song) dataset.
 
-The dataset contains professionally recorded speech samples representing multiple emotional states.
+Dataset Features:
 
-### Emotion Classes
+- Professional speech recordings
+- Multiple emotional categories
+- High-quality audio samples
+- Balanced emotion distribution
+
+Emotion Classes:
 
 - Neutral
 - Calm
@@ -33,174 +38,122 @@ The dataset contains professionally recorded speech samples representing multipl
 
 ---
 
-## Project Workflow
-
-### 1. Data Collection
-
-- Downloaded and organized the RAVDESS dataset.
-- Loaded speech audio files from all actor folders.
-- Extracted emotion labels from file names.
-
-### 2. Data Preprocessing
-
-- Audio loading using Librosa.
-- Resampling audio signals.
-- Noise reduction and normalization.
-- Feature extraction from speech signals.
-
-### 3. Feature Extraction
-
-Mel-Frequency Cepstral Coefficients (MFCCs) were extracted from audio samples.
-
-Features extracted:
-
-- MFCC
-- Chroma Features
-- Mel Spectrogram
-- Spectral Contrast
-- Tonnetz Features
-
----
-
-## Model Architecture
-
-A Deep Neural Network (DNN) was implemented for emotion classification.
-
-### Layers
-
-- Input Layer
-- Dense Layer
-- ReLU Activation
-- Dropout Layer
-- Dense Layer
-- ReLU Activation
-- Dropout Layer
-- Output Layer (Softmax)
-
----
-
 ## Technologies Used
 
 - Python
 - NumPy
 - Pandas
 - Matplotlib
-- Seaborn
 - Librosa
-- TensorFlow
-- Keras
-- Scikit-learn
+- TensorFlow / Keras
+- Scikit-Learn
 
 ---
 
-## Data Visualization
+## Project Workflow
 
-The following visualizations were generated during analysis:
+### 1. Data Collection
 
-### Emotion Distribution
-Shows the number of samples available for each emotion class.
+Speech audio files are collected from the RAVDESS dataset.
 
-### Training Accuracy
-Tracks model learning performance across epochs.
+### 2. Audio Preprocessing
 
-### Validation Accuracy
-Measures generalization performance on unseen data.
+Audio files are loaded and processed using Librosa.
 
-### Training Loss
-Shows reduction in prediction error during training.
+Preprocessing steps:
 
-### Validation Loss
-Helps monitor overfitting and model convergence.
+- Audio loading
+- Noise reduction
+- Normalization
+- Feature extraction
 
-### Confusion Matrix
-Visualizes correct and incorrect emotion classifications.
+### 3. Feature Extraction
 
----
+Mel-Frequency Cepstral Coefficients (MFCCs) are extracted from each audio sample.
 
-## Model Performance
+Features used:
 
-Evaluation Metrics:
+- MFCC
+- Chroma Features
+- Mel Spectrogram
+- Spectral Contrast
+- Tonnetz
+
+### 4. Data Preparation
+
+- Label Encoding
+- Train-Test Split
+- Feature Scaling
+
+### 5. Model Development
+
+A Deep Learning Neural Network is trained on the extracted features.
+
+Model Architecture:
+
+- Input Layer
+- Dense Layers
+- Dropout Layers
+- Output Softmax Layer
+
+### 6. Model Evaluation
+
+The model performance is evaluated using:
 
 - Accuracy
+- Loss
+- Confusion Matrix
+- Classification Report
+
+---
+
+## Results
+
+The model successfully learns emotional patterns from speech recordings and achieves reliable classification performance on unseen data.
+
+### Training Accuracy
+
+![Training Accuracy](training_accuracy.png)
+
+### Validation Accuracy
+
+![Validation Accuracy](validation_accuracy.png)
+
+### Training Loss
+
+![Training Loss](training_loss.png)
+
+### Validation Loss
+
+![Validation Loss](validation_loss.png)
+
+---
+
+## Performance Metrics
+
+Metrics used for evaluation:
+
+- Accuracy Score
 - Precision
 - Recall
 - F1-Score
-
-### Results
-
-| Metric | Score |
-|----------|----------|
-| Training Accuracy | 54% |
-| Validation Accuracy | 50% |
-| Training Loss | 1.28 |
-| Validation Loss | 1.39 |
-
-The model demonstrates the ability to learn emotional patterns from speech audio and classify emotions with reasonable performance.
+- Confusion Matrix
 
 ---
 
 ## Project Structure
 
-```
-Task2_Emotion_Recognition_From_Speech/
+```text
+Task2_Emotion_Recognition/
 │
 ├── emotion_recognition.py
-├── ravdess_dataset/
-├── saved_model/
+├── README.md
 ├── training_accuracy.png
 ├── validation_accuracy.png
 ├── training_loss.png
 ├── validation_loss.png
-├── confusion_matrix.png
-├── requirements.txt
-└── README.md
-```
-
----
-
-## How to Run
-
-### Clone Repository
-
-```bash
-git clone https://github.com/your-username/CodeAlpha_ML_Internship.git
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run Project
-
-```bash
-python emotion_recognition.py
-```
-
----
-
-## Future Improvements
-
-- Use CNN and LSTM architectures.
-- Apply audio data augmentation.
-- Increase dataset size.
-- Hyperparameter optimization.
-- Real-time emotion prediction from microphone input.
-- Deploy as a web application.
-
----
-
-## Conclusion
-
-This project demonstrates the application of Deep Learning and speech signal processing techniques for Speech Emotion Recognition. By extracting meaningful audio features and training a neural network, the system can identify emotional states from human speech and serve as a foundation for intelligent audio-based applications.
-
----
-
-## Internship Information
-
-**Internship:** CodeAlpha Data Science Internship
-
-**Task:** Task 2 - Emotion Recognition from Speech
-
-**Domain:** Machine Learning and Deep Learning
+├── dataset/
+│   └── audio_files
+│
+└── model/
+    └── emotion_model.h5
