@@ -1,11 +1,11 @@
-# 💳 Credit Scoring Model
+# Credit Scoring Model
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-green)
 ![Status](https://img.shields.io/badge/Project-Completed-success)
 ![CodeAlpha](https://img.shields.io/badge/CodeAlpha-Internship-orange)
 
-## 📌 Overview
+##  Overview
 
 The Credit Scoring Model is a Machine Learning project developed as part of the **CodeAlpha Machine Learning Internship**.
 
@@ -13,7 +13,7 @@ The main objective of this project is to predict a customer's creditworthiness u
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Analyze customer financial data.
 - Perform Exploratory Data Analysis (EDA).
@@ -24,7 +24,7 @@ The main objective of this project is to predict a customer's creditworthiness u
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **Dataset Used:** German Credit Dataset
 
@@ -44,7 +44,7 @@ The dataset contains financial and personal information about loan applicants an
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -56,7 +56,7 @@ The dataset contains financial and personal information about loan applicants an
 
 ---
 
-## 📊 Exploratory Data Analysis
+## Exploratory Data Analysis
 
 Several visualizations were created to better understand the dataset.
 
@@ -101,7 +101,7 @@ Displays relationships among variables.
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 ### Missing Value Handling
 
@@ -118,7 +118,7 @@ Categorical features were converted into numerical values using **Label Encoding
 
 ---
 
-## 🤖 Machine Learning Model
+##  Machine Learning Model
 
 ### Algorithm Used
 
@@ -133,7 +133,7 @@ Random Forest was chosen because it:
 
 ---
 
-## 🔄 Workflow
+##  Workflow
 
 ```text
 Dataset Loading
@@ -182,7 +182,7 @@ Used metrics:
 
 ---
 
-## 🔍 Feature Importance
+##  Feature Importance
 
 The most influential features identified by the model were:
 
@@ -228,7 +228,7 @@ These factors contributed most to credit risk prediction.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 Credit-Scoring-Model/
@@ -253,7 +253,7 @@ Credit-Scoring-Model/
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 - Credit Amount and Loan Duration were the strongest indicators of risk.
 - Larger loans with longer repayment periods tended to have higher risk.
@@ -262,7 +262,7 @@ Credit-Scoring-Model/
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Compare multiple algorithms (Logistic Regression, XGBoost, SVM).
 - Hyperparameter tuning.
@@ -271,7 +271,7 @@ Credit-Scoring-Model/
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Radhika**
 
