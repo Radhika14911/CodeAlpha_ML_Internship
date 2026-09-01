@@ -198,33 +198,57 @@ These factors contributed most to credit risk prediction.
 
 ## Project Visualizations
 
-### Age Distribution
+## Age Distribution
 
-![Age Distribution](images/age_distribution.png)
+![Age Distribution](age_distribution.png)
 
-### Gender Distribution
+## Gender Distribution
 
-![Gender Distribution](images/gender_distribution.png)
+![Gender Distribution](gender_distribution.png)
 
-### Housing Distribution
+## Housing Distribution
 
-![Housing Distribution](images/housing_distribution.png)
+![Housing Distribution](housing_distribution.png)
 
-### Credit Amount Distribution
+## Credit Amount Distribution
 
-![Credit Amount Distribution](images/credit_amount_distribution.png)
+![Credit Amount Distribution](credit_amount_distribution.png)
 
-### Correlation Heatmap
+## Correlation Heatmap
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](correlation_heatmap.png)
 
-### Confusion Matrix
+## Confusion Matrix
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
-### Feature Importance
+## Feature Importance
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](feature_importance.png)
+
+## Loan Duration Distribution
+
+![Loan Duration Distribution](loan_duration_distribution.png)
+
+## Loan Purpose Distribution
+
+![Loan Purpose Distribution](loan_purpose_distribution.png)
+
+## Saving Accounts Distribution
+
+![Saving Accounts Distribution](saving_accounts_distribution.png)
+
+## Checking Accounts Distribution
+
+![Checking Accounts Distribution](checking_accounts_distribution.png)
+
+## Missing Value Heatmap
+
+![Missing Value Heatmap](missing_value_heatmap.png)
+
+## Age Distribution by Gender
+
+![Age Distribution by Gender](age_distribution_by_gender.png)
 
 ---
 
