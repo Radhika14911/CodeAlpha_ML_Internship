@@ -191,7 +191,7 @@ Machine Learning Intern – CodeAlpha
 
 GitHub: https://github.com/Radhika14911
 
-LinkedIn:(https://www.linkedin.com/in/radhika-mittal-04b4241ab/)
+LinkedIn:https://www.linkedin.com/in/radhika-mittal-04b4241ab/
 
 ---
 
