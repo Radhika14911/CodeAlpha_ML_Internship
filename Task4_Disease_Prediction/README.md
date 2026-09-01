@@ -130,7 +130,7 @@ Illustrates relationships among medical features and highlights strongly correla
 
 ### Confusion Matrix
 
-![Confusion Matrix](confusion_matrix(3).png)
+![Confusion Matrix](confusion_matrix.png)
 
 Evaluates classification performance by comparing actual and predicted labels.
 
