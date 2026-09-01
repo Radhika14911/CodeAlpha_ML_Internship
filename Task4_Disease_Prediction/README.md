@@ -96,7 +96,7 @@ Task4_Disease_Prediction_from_Medical_Data/
 ├── breast_cancer_target_distribution.png
 ├── distribution_mean_radius.png
 ├── feature_correaltion_heatmap.png
-├── confusion_matrix(3).png
+├── confusion_matrix.png
 └── README.md
 ```
 
